@@ -1,1 +1,5 @@
-import '../assets/styles/index.sass';
+import './style.sass';
+
+console.log(
+    'test'
+)
