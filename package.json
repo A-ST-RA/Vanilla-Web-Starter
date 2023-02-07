@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "start": "webpack --watch"
+    "start:dev": "webpack --watch"
   },
   "dependencies": {}
 }
