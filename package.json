@@ -6,6 +6,7 @@
   "devDependencies": {
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.3",
     "mini-css-extract-plugin": "^2.7.2",
     "node-sass": "^8.0.0",
     "sass": "^1.57.1",
@@ -16,7 +17,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "start:dev": "webpack --watch"
-  },
-  "dependencies": {}
+    "start:dev": "webpack --watch",
+    "prepare": "husky install",
+    "pre-commit": "echo 'Pre Commit starting'"
+  }
 }
